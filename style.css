@@ -89,7 +89,7 @@
 
 .popular
 {
-margin-top: 50pxs;
+margin-top: 40px;
  display: grid;
  grid-template-columns: repeat(3,1fr);
  gap: 20px;
@@ -114,5 +114,65 @@ margin-top: 50pxs;
     height: 270px;
 }
 
-
 /* Popular section style ends here */
+
+
+/* section odvut style starts here */
+.odvut-main
+{
+    border: 2px solid blue;
+    margin-top: 50px;
+    min-height: 300px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    gap: 20px;
+}
+.odvut-main img{
+    width: 100%;
+    height: 100%;
+    border-radius: 70px;
+    filter: brightness(30%);
+}
+  
+.odvut-child-1
+{ background-color: red;
+    grid-column: 1/span 7;
+    border-radius: 70px;
+    grid-row: 1/span 6;
+    position: relative;
+}
+.odvut-child-2
+{background-color: green;
+    grid-column: 8/span 5;
+    border-radius: 70px;
+    grid-row: 1/span 6;
+    position: relative;
+}
+.odvut-child-3
+{
+background-color: blue;
+grid-column: 1/span 5;
+border-radius: 70px;
+grid-row: 7/span 6;
+position: relative;
+}
+.odvut-child-4
+{
+background-color: pink;
+grid-column: 6/span 7;
+border-radius: 70px;
+grid-row: 7/span 6;
+position: relative;
+}
+.icon
+{
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top: 20%;
+    left: 50%;
+}
+ 
+/* section odvut style ends here */
