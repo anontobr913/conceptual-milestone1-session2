@@ -40,7 +40,6 @@
         max-width: 1200px;
         margin: 0 auto;
      
-        border: 2px solid red;
      }
      .banner>div
      {
@@ -120,7 +119,7 @@ margin-top: 40px;
 /* section odvut style starts here */
 .odvut-main
 {
-    border: 2px solid blue;
+    
     margin-top: 50px;
     min-height: 300px;
     height: 200px;
@@ -176,3 +175,48 @@ position: relative;
 }
  
 /* section odvut style ends here */
+
+/* qna section style starts here */
+
+.qna-main
+{
+    
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qna-child
+{
+    
+    width: 47%;
+}
+.qna-child img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.form-container
+{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 10px;
+}
+.form-filed
+{
+    width: 47%;
+}
+.form-filed-textarea
+{
+    width: 100%;
+}
+.form-container input,textarea,select
+{
+ 
+    width: 100%;
+    height: 50px;
+}
+/* qna section style ends here */
