@@ -1,0 +1,59 @@
+@media screen  and (max-width:800px) 
+{
+    .navbar-main
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-main>div
+    {
+        margin-top: 20px;
+    }
+    .fifty-off
+    {
+        left: 17%;
+        top:29%;
+
+    }
+    .popular
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* For small device */
+
+@media screen and (max-width:500px)
+ {
+    .hamburger-menu
+    {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .nav-btn-container
+    {
+        display:none;
+    }
+    .navbar-main
+    {
+        flex-direction: row;
+        align-items: center;
+    }
+    .banner
+    {
+        flex-direction: column;
+    }
+    .banner>div
+    {
+       width: 100%;
+       
+    }
+    .fifty-off
+    {
+        left: 28%;
+    }
+     .popular
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
